@@ -27,4 +27,4 @@ By default it will run on localhost (http://127.0.0.1:8000)
 * http://127.0.0.1:8000/docs
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/HabibuGG/api-shortener/blob/main/LICENSE)
