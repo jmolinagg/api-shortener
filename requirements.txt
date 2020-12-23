@@ -9,6 +9,7 @@ mypy==0.790
 mypy-extensions==0.4.3
 pydantic==1.7.2
 pylint==2.6.0
+python-multipart==0.0.5
 six==1.15.0
 starlette==0.13.6
 toml==0.10.2
