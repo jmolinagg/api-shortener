@@ -8,7 +8,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 
 app = FastAPI()
 
-dic = []
+dic = [] 
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
@@ -33,7 +33,7 @@ async def create_url(item: Item, token: str = Depends(oauth2_scheme)):
 
 
 @app.get("/{short}")
-async def open_url(short: str, token: str = Depends(oauth2_scheme)):
+async def open_url(short: str):
   for i in dic:
     if i.short == short:
       return RedirectResponse(i.url)
